@@ -1,7 +1,9 @@
 # StudentLifeOZ: International Student App
 
+[![Join our Discord](https://img.shields.io/badge/Join%20our%20Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/sQJjG4zm)
+
 ## Project Overview
-StudentLifeOZ is a comprehensive mobile application designed to support international students in Australia. Our platform aims to simplify various aspects of student life, including job searching, healthcare navigation, accommodation finding, and social networking.
+StudentLifeOZ is a comprehensive application designed to support international students in Australia. Our platform aims to simplify various aspects of student life, including job searching, healthcare navigation, accommodation finding, and social networking.
 
 ## Key Features (Planned)
 - **User Authentication**: Secure registration and login system
@@ -44,15 +46,20 @@ StudentLifeOZ is a comprehensive mobile application designed to support internat
 
 ## How to Contribute
 We welcome contributions from developers of all skill levels! If you're interested in contributing, please follow these steps:
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/AmazingFeature`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-5. Push to the branch (`git push origin feature/AmazingFeature`)
-6. Open a Pull Request
+1. Join our Discord community to connect with other contributors
+2. Fork the repository
+3. Create a new branch (`git checkout -b feature/AmazingFeature`)
+4. Make your changes
+5. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+6. Push to the branch (`git push origin feature/AmazingFeature`)
+7. Open a Pull Request
 
-## Contact
-Project Link: [https://github.com/YOUR_USERNAME/international-student-app](https://github.com/YOUR_USERNAME/international-student-app)
+## Call for Mentors
+Are you an experienced developer passionate about education and supporting international students? We're looking for mentors to guide our contributors, review code, and share knowledge. If you're interested in becoming a mentor for the StudentLifeOZ project, please reach out to us on Discord.
+
+## Community
+Join our Discord server to connect with other contributors, share ideas, and get help:
+[StudentLifeOZ Discord](https://discord.gg/sQJjG4zm)
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
