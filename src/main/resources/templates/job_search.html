@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>StudentLifeOZ - Job Search</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">StudentLifeOZ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contribute">Contribute</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="job_search.html">Job Search</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-light py-5">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6">
+                    <div class="text-center my-5">
+                        <h1 class="display-5 fw-bolder text-dark mb-2">Find Your Perfect Job</h1>
+                        <p class="lead text-muted mb-4">Discover student-friendly jobs that comply with your visa conditions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-5 border-bottom" id="job-search">
+        <div class="container px-5 my-5">
+            <div class="row gx-5">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h2 class="fw-bolder mb-3">Job Search Filters</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="jobType" class="form-label">Job Type</label>
+                            <select class="form-select" id="jobType">
+                                <option value="">All Types</option>
+                                <option value="part-time">Part-time</option>
+                                <option value="casual">Casual</option>
+                                <option value="internship">Internship</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="location" class="form-label">Location</label>
+                            <input type="text" class="form-control" id="location" placeholder="Enter city or suburb">
+                        </div>
+                        <div class="mb-3">
+                            <label for="industry" class="form-label">Industry</label>
+                            <select class="form-select" id="industry">
+                                <option value="">All Industries</option>
+                                <option value="hospitality">Hospitality</option>
+                                <option value="retail">Retail</option>
+                                <option value="it">IT</option>
+                                <option value="education">Education</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Search Jobs</button>
+                    </form>
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="fw-bolder mb-3">Job Listings</h2>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Barista - CBD Cafe</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Part-time | Sydney CBD</h6>
+                            <p class="card-text">Looking for an experienced barista to join our busy cafe team. Flexible hours available to fit your study schedule.</p>
+                            <a href="#" class="btn btn-outline-primary">Apply Now</a>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">IT Support Intern</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Internship | Melbourne</h6>
+                            <p class="card-text">Gain valuable experience in IT support while studying. Perfect for IT and Computer Science students.</p>
+                            <a href="#" class="btn btn-outline-primary">Apply Now</a>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Retail Assistant - Fashion Store</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Casual | Brisbane</h6>
+                            <p class="card-text">Join our friendly team in a bustling fashion retail environment. No experience necessary, training provided.</p>
+                            <a href="#" class="btn btn-outline-primary">Apply Now</a>
+                        </div>
+                    </div>
+                    <nav aria-label="Job search results pages">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                            </li>
+                            <li class="page-item active" aria-current="page">
+                                <a class="page-link" href="#">1</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5 bg-dark">
+        <div class="container px-5">
+            <p class="m-0 text-center text-white">Copyright &copy; StudentLifeOZ 2024</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

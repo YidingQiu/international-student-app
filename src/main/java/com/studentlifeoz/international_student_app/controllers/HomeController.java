@@ -10,4 +10,14 @@ public class HomeController {
     public String home() {
         return "home";
     }
+
+    @GetMapping("/job-search")
+    public String jobSearch() {
+        return "job_search";
+    }
+
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
 }
