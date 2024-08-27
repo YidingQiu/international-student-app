@@ -1,6 +1,6 @@
 # StudentLifeOZ: International Student App
 
-[![Join our Discord](https://img.shields.io/badge/Join%20our%20Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/sQJjG4zm)
+[![Join our Discord](https://img.shields.io/badge/Join%20our%20Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/4668EZhZa6)
 
 ## Project Overview
 StudentLifeOZ is a comprehensive application designed to support international students in Australia. Our platform aims to simplify various aspects of student life, including job searching, healthcare navigation, accommodation finding, and social networking.
@@ -42,7 +42,7 @@ StudentLifeOZ is a comprehensive application designed to support international s
    ```
    mvn spring-boot:run
    ```
-5. Open a web browser and go to `http://localhost:8080`
+5. Open a web browser and go to `http://localhost:8082`
 
 ## How to Contribute
 We welcome contributions from developers of all skill levels! If you're interested in contributing, please follow these steps:
